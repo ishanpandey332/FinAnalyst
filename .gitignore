@@ -1,0 +1,46 @@
+# Environment variables and secrets
+.env
+*.env
+!.env.example
+
+# Local SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+finlens.db
+finlens.db
+
+# Local vector index
+data/chroma_db/
+
+# Uploaded documents
+data/uploads/
+!data/uploads/.gitkeep
+!data/sample_documents/
+
+# Python virtual environment & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+vir/
+*.egg-info/
+.pytest_cache/
+
+# Node / Frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
