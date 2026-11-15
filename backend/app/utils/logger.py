@@ -3,7 +3,7 @@ import sys
 from typing import Optional
 
 
-def setup_logger(name: Optional[str] = "finlens") -> logging.Logger:
+def setup_logger(name: Optional[str] = "finanalyst") -> logging.Logger:
     """Configures a standardized structured logger for FinAnalyst."""
     logger = logging.getLogger(name)
     

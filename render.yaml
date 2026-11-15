@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: finlens
+    name: finanalyst
     runtime: docker
     dockerfilePath: ./Dockerfile
     plan: free
