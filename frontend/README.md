@@ -1,4 +1,4 @@
-# FinLens frontend
+# FinAnalyst frontend
 
 ## Local development
 
@@ -15,7 +15,7 @@ The Vite development proxy sends `/api` requests to `http://127.0.0.1:8000`.
 
 Create a Vercel project from this repository with:
 
-- Root Directory: `FinLens/frontend`
+- Root Directory: `FinAnalyst/frontend`
 - Framework Preset: `Vite`
 - Build Command: `npm run build`
 - Output Directory: `dist`
@@ -31,7 +31,7 @@ The SPA rewrite in `vercel.json` keeps client-side routes working after refresh.
 ## Railway backend
 
 Create a Railway service from the same repository and set its Root Directory to
-`FinLens`. Railway will use the included `Dockerfile` and `railway.toml`.
+`FinAnalyst`. Railway will use the included `Dockerfile` and `railway.toml`.
 
 Set these Railway variables:
 

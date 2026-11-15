@@ -3,7 +3,7 @@ import asyncio
 from pathlib import Path
 from contextlib import asynccontextmanager
 
-# Ensure project root (FinLens) is in sys.path so 'backend' package is resolvable
+# Ensure project root (FinAnalyst) is in sys.path so 'backend' package is resolvable
 # regardless of the working directory or execution method (e.g. VS Code 'Run' button)
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 if str(PROJECT_ROOT) not in sys.path:
@@ -32,7 +32,7 @@ async def lifespan(app: FastAPI):
     if not startup_task.done():
         startup_task.cancel()
         await asyncio.gather(startup_task, return_exceptions=True)
-    logger.info("FinLens application shut down gracefully.")
+    logger.info("FinAnalyst application shut down gracefully.")
 
 
 async def initialize_application_data() -> None:

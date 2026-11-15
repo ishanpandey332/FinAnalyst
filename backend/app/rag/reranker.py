@@ -1,5 +1,5 @@
 """
-FinLens Reranker Engine.
+FinAnalyst Reranker Engine.
 
 Supports two operational modes:
 1. Fast Lexical & Hybrid Cross-Scorer (Default for <= 512MB RAM environments):

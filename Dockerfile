@@ -1,5 +1,5 @@
 # ==============================================================================
-# Multi-Stage Dockerfile for FinLens (AI Financial Research & RAG Platform)
+# Multi-Stage Dockerfile for FinAnalyst (AI Financial Research & RAG Platform)
 # Optimized for Free Tiers (Render, Railway - 512MB RAM Limit) & Cloud Platforms
 # - Image size: ~350 MB (down from 4.5 GB)
 # - Idle RAM: ~100-140 MB (down from 700+ MB)

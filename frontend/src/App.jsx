@@ -55,7 +55,7 @@ export default function App() {
       <footer className="border-t border-slate-800/80 bg-[#0a0e17] py-5 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4">
           <p className="text-slate-400 font-medium">
-            FinLens — Financial Intelligence & Annual Report RAG Platform
+            FinAnalyst — Financial Intelligence & Annual Report RAG Platform
           </p>
           <p className="mt-1 text-[11px] text-slate-600">
             Automated KPI Extraction & Fact-Grounded Document Q&A with Verifiable Page Citations.

@@ -4,7 +4,7 @@ from typing import Optional
 
 
 def setup_logger(name: Optional[str] = "finlens") -> logging.Logger:
-    """Configures a standardized structured logger for FinLens."""
+    """Configures a standardized structured logger for FinAnalyst."""
     logger = logging.getLogger(name)
     
     if not logger.handlers:

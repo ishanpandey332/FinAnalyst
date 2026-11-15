@@ -1,1 +1,1 @@
-"""FinLens Backend Package."""
+"""FinAnalyst Backend Package."""

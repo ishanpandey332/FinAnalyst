@@ -1,10 +1,10 @@
 # FinAnalyst — AI Financial Intelligence & Investment Research Platform
 
-FinLens is a finance-focused AI application that combines semantic document search, company fundamentals, mutual fund analysis, and investment recommendation logic in one platform. It is designed for researchers, students, and investors who want explainable, grounded answers instead of opaque generic financial chat.
+FinAnalyst is a finance-focused AI application that combines semantic document search, company fundamentals, mutual fund analysis, and investment recommendation logic in one platform. It is designed for researchers, students, and investors who want explainable, grounded answers instead of opaque generic financial chat.
 
 The platform uses a Retrieval-Augmented Generation (RAG) pipeline over uploaded PDF financial documents and curated market datasets, then routes user questions to the appropriate analysis path: document Q&A, company financial research, mutual fund analysis, recommendation scoring, or general financial education.
 
-## Why FinLens
+## Why FinAnalyst
 
 - Upload annual reports and financial PDFs and query them naturally
 - Search across company filings, fund factsheets, and structured datasets
@@ -65,7 +65,7 @@ The platform uses a Retrieval-Augmented Generation (RAG) pipeline over uploaded 
 ## Project Structure
 
 ```text
-FinLens/
+FinAnalyst/
 ├── .env.example
 ├── .env
 ├── Dockerfile
@@ -144,9 +144,9 @@ FinLens/
 ### 1. Clone and enter the project
 
 ```bash
-git clone https://github.com/prince734-cloud/Finlens2.git
-cd Finlens2
-cd FinLens
+git clone https://github.com/ishanpandey332/FinAnalyst.git
+cd FinAnalyst
+cd FinAnalyst
 ```
 
 ### 2. Create a Python environment
@@ -347,7 +347,7 @@ Ensure the frontend dev server can connect to the backend on `http://127.0.0.1:8
 
 ## Regulatory Disclaimer
 
-FinLens is designed for educational and research use. It does not provide personalized financial advice, legal advice, or guarantees of investment returns. Every AI-generated answer includes a disclaimer and should be treated as decision-support information, not a substitute for a licensed financial advisor or a professional investment recommendation.
+FinAnalyst is designed for educational and research use. It does not provide personalized financial advice, legal advice, or guarantees of investment returns. Every AI-generated answer includes a disclaimer and should be treated as decision-support information, not a substitute for a licensed financial advisor or a professional investment recommendation.
 
 ## License
 

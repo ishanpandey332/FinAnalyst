@@ -8,7 +8,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 # Immediately load environment variables from .env file
 load_dotenv()
 
-# Base directory of FinLens project
+# Base directory of FinAnalyst project
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 
@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     """Application configuration loaded from environment variables and .env file."""
     
     # Application Info
-    APP_NAME: str = "FinLens — AI Financial Intelligence & Investment Research Platform"
+    APP_NAME: str = "FinAnalyst — AI Financial Intelligence & Investment Research Platform"
     APP_VERSION: str = "1.0.0"
     DEBUG: bool = os.getenv("DEBUG", "False").lower() in ("true", "1", "yes")
     ENVIRONMENT: str = os.getenv("ENVIRONMENT", "production" if os.getenv("PORT") else "development")

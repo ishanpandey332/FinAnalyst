@@ -1,5 +1,5 @@
 # ==============================================================================
-# FinLens Base Dependencies (Optimized for 512MB RAM Free Tier: Render & Railway)
+# FinAnalyst Base Dependencies (Optimized for 512MB RAM Free Tier: Render & Railway)
 # PyTorch & local transformer models removed to ensure container runs in < 150MB RAM.
 # Uses Cloud Inference (HF Serverless API / Gemini / Mistral) with zero model RAM.
 # ==============================================================================

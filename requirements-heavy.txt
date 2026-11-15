@@ -1,5 +1,5 @@
 # ==============================================================================
-# FinLens Heavy / GPU Dependencies (For >= 4GB RAM, Hugging Face Spaces 16GB, or GPU)
+# FinAnalyst Heavy / GPU Dependencies (For >= 4GB RAM, Hugging Face Spaces 16GB, or GPU)
 # Includes local PyTorch, Sentence-Transformers, and Cross-Encoder neural models.
 # ==============================================================================
 

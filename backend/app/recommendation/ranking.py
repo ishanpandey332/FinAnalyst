@@ -1,5 +1,5 @@
 """
-FinLens — Ranking & Grounded Explainability Engine
+FinAnalyst — Ranking & Grounded Explainability Engine
 Ranks scored candidate assets and generates fact-grounded positive factors
 and risk considerations referencing audited metrics.
 """
